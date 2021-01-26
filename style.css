@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+.banner {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.banner h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    color: #fde7c5;
+    line-height: 60px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5) ;
+}
+
+.banner p {
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fde7c5;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.banner button {
+    width: 150px;
+    height: 40px;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fde7c5;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
+    cursor: pointer;
+}
