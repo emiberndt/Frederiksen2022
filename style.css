@@ -81,7 +81,10 @@
     background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: none;
     font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
     color: #fde7c5;
+    letter-spacing: 3px;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
     cursor: pointer;
@@ -97,4 +100,42 @@
         transform: translateY(0) rotateY(0);
         opacity: 1;
     }
+}
+
+.sidebar {
+    width: 15rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #2C3E50;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-items {
+    text-align: center;
+}
+
+.menu-links {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fde7c5;
+    letter-spacing: 5px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: background-color 0.7s;
+}
+
+.menu-links:hover {
+    color: #FD746C;
 }
