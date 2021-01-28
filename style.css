@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Navigation "Hamburger" */
 .burger-menu {
     width: 30px;
@@ -30,10 +34,12 @@
     width: 100%;
     height: 2px;
     background-color: #050505;
+    z-index: 200;
 }
 
 .change .line {
     background-color: #050505;
+    z-index: 3;
 }
 
 .change .line-1 {
@@ -53,7 +59,6 @@
 .header {
     width: 100%;
     height: 100%;
-    position: relative;
     perspective: 80rem;
     overflow: hidden;
 }
@@ -80,7 +85,6 @@
 .banner h1 {
     font-family: 'Homemade Apple', cursive;
     font-size: 60px;
-    color: #050505;
     line-height: 60px;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     opacity: 0;
@@ -92,7 +96,6 @@
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     text-transform: uppercase;
-    color: #050505;
     letter-spacing: 3px;
     margin-bottom: 50px;
     opacity: 0;
@@ -109,7 +112,6 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     text-transform: uppercase;
-    color: #050505;
     letter-spacing: 3px;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
@@ -119,7 +121,6 @@
 }
 
 /* Music Button */
-
 .music-btn {
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
@@ -161,6 +162,7 @@
     right: -15rem;
     background: #fff;
     transition: right 0.4s;
+    z-index: 2;
 }
 
 .change .sidebar {
@@ -203,3 +205,35 @@
   width: 100%;
 }
 
+/* About */
+.about {
+    width: 80%;
+    padding: 5%;
+    margin: 10%;
+}
+
+.about h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-img img{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    shape-outside: circle();
+    opacity: 0.8;
+    margin: 3%;
+}
+
+.about p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;  
+}
