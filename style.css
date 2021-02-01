@@ -207,9 +207,9 @@ body {
 
 /* About */
 .about {
-    width: 80%;
+    width: 90%;
     padding: 5%;
-    margin: 10%;
+    margin: 5%;
 }
 
 .about h2 {
@@ -220,12 +220,23 @@ body {
     margin-bottom: 40px;
 }
 
-.about-img img{
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
+.about-img-left img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%; 
     overflow: hidden;
     float: left;
+    shape-outside: circle();
+    opacity: 0.8;
+    margin: 3%;
+}
+
+.about-img-right img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: right;
     shape-outside: circle();
     opacity: 0.8;
     margin: 3%;
