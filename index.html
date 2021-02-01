@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Sunset Resorts</title>
 </head>
 
@@ -22,7 +21,7 @@
 <!--Background Video-->        
         <header class="header">
             <div class="video-wrapper">
-                <video src="media/movie/coast.mp4" autoplay muted loop>This browser does not support video</video>
+                <video src="assets/media/movie/coast.mp4" autoplay muted loop>This browser does not support video</video>
             </div>
 <!--Welcome Text-->            
             <div class="banner">
@@ -31,10 +30,10 @@
                 <button><a href="#map-page">Our Locations</a></button>
 <!--Background Music-->                
                 <div class="music-btn">
-                    <img src="media/music/play.png" alt="play-button" id="icon">
+                    <img src="assets/media/music/play.png" alt="play-button" id="icon">
                     <p>Music</p>
                     <audio id="bgMusic">
-                        <source src="media/music/bgmusic.mp3" type="audio/mp3">
+                        <source src="assets/media/music/bgmusic.mp3" type="audio/mp3">
                     </audio>
                 </div>
             </div>
@@ -52,7 +51,7 @@
                     <a href="#map-page" class="menu-links" data-content="Map">Map</a>
                 </il>
                 <il class="menu-items">
-                    <a href="" class="menu-links" data-content="Resorts">Resorts</a>
+                    <a href="#resorts-page" class="menu-links" data-content="Resorts">Resorts</a>
                 </il>
                 <il class="menu-items">
                     <a href="" class="menu-links" data-content="Enquiry">Enquiry</a>
@@ -64,7 +63,7 @@
     <div class="about" id="about-page">
         <h2>About</h2>
         <div class="about-img-left">
-            <img src="media/pic/beach1.jpg" alt="Palmtrees at the Beach">
+            <img src="assets/media/pic/beach1.jpg" alt="Palmtrees at the Beach">
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget ultrices
             lorem.
@@ -75,7 +74,7 @@
             purus lobortis lacus, nec aliquet dolor orci et tortor. Fusce non lacus maximus, lacinia neque ac, sagittis
             lorem.</p>
         <div class="about-img-right">
-            <img src="media/pic/lagoon.jpg" alt="Island Lagoon">
+            <img src="assets/media/pic/lagoon.jpg" alt="Island Lagoon">
         </div>
         <p>Cras ultrices ante vitae risus efficitur imperdiet quis quis nisl. Duis in tortor id sapien ullamcorper
             aliquet ut
@@ -95,21 +94,103 @@
 </div>
 
 <!--Resorts-->
-<div class="resorts" id="resorts-page">
-    <h2>Resorts</h2>
-</div>
-<div class="card-wrapper">
-    <div class="card">
-        <div class="card-img">
-            <img src="media/pic/sunnybeachresort.jpg" alt="Sunny Beach Resort">
+<section class="resorts">
+    <div id="resorts-page">
+        <h2>Resorts</h2>
+    </div>
+    <div class="card-wrapper">
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/sunnybeachresort.jpg" alt="Sunny Beach Resort">
+            </div>
+            <div class="card-info">
+                <h3>Sunny Beach Resort</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
         </div>
-        <div class="card-info">
-            <h3>Sunny Beach Resort</h3>
-            <p></p>
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/bungalowbayresort.jpg" alt="Bungalow Bay Resort">
+            </div>
+            <div class="card-info">
+                <h3>Bungalow Bay Resort</h3>
+                <i class="fas fa-star"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
+        </div>
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/thepalmresort.jpg" alt="The Palm Resort">
+            </div>
+            <div class="card-info">
+                <h3>The Palm Resort</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
         </div>
     </div>
-</div>
-
+    <div class="card-wrapper">
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/coralreefresort.jpg" alt="Coral Reef Resort">
+            </div>
+            <div class="card-info">
+                <h3>Sunny Beach Resort</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
+        </div>
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/coconutbeachresort.jpg" alt="Coconut Beach Resort">
+            </div>
+            <div class="card-info">
+                <h3>Bungalow Bay Resort</h3>
+                <i class="fas fa-star"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
+        </div>
+        <div class="card" data-tilt>
+            <div class="card-img">
+                <img src="assets/media/pic/oceanspaandresort.jpg" alt="Ocean Spa & Resort">
+            </div>
+            <div class="card-info">
+                <h3>The Palm Resort</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
+                    ultrices
+                    lorem.
+                    Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu
+                    nunc
+                    velit.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!--Enquiry-->
@@ -127,7 +208,9 @@
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUEY6aGpBAtBGIT5eMGSwcmoEfaf2DULg&callback=initMap&libraries=&v=weekly" defer></script>
-<script src="script.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="assets/js/tilt.js"></script>
 </body>
 
 </html>

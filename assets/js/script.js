@@ -5,10 +5,10 @@ let icon = document.getElementById("icon");
 icon.onclick = function(){
     if(bgMusic.paused){
         bgMusic.play();
-        icon.src = "media/music/pause.png";
+        icon.src = "assets/media/music/pause.png";
     }else{
         bgMusic.pause();
-        icon.src = "media/music/play.png";
+        icon.src = "assets/media/music/play.png";
     }
 }
 
