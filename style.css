@@ -105,9 +105,7 @@ body {
 .banner button {
     width: 150px;
     height: 40px;
-    background: #2C3E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #FD746C, #2C3E50);
     border: none;
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
@@ -118,6 +116,10 @@ body {
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 1.2s forwards;
+}
+
+.banner button a {
+    color: black;
 }
 
 /* Music Button */
@@ -261,5 +263,16 @@ body {
 #map {
     left: 10%;
     width: 80%;
-    height: 60vh;
+    height: 50vh;
+}
+
+/* Resorts */
+.resorts h2 {
+
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 40px;
 }

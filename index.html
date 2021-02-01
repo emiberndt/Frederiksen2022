@@ -12,20 +12,24 @@
 </head>
 
 <body>
+<!--Navigation Menu-->    
     <div class="container">
         <div class="burger-menu">
             <div class="line line-1"></div>
             <div class="line line-2"></div>
             <div class="line line-3"></div>
         </div>
+<!--Background Video-->        
         <header class="header">
             <div class="video-wrapper">
                 <video src="media/movie/coast.mp4" autoplay muted loop>This browser does not support video</video>
             </div>
+<!--Welcome Text-->            
             <div class="banner">
                 <h1>Sunset Resorts</h1>
                 <h5>Luxury Resorts at Exclusive Destinations</h5>
-                <button>Our Locations</button>
+                <button><a href="#map-page">Our Locations</a></button>
+<!--Background Music-->                
                 <div class="music-btn">
                     <img src="media/music/play.png" alt="play-button" id="icon">
                     <p>Music</p>
@@ -35,6 +39,7 @@
                 </div>
             </div>
         </header>
+<!--Navigation Menu-->        
         <section class="sidebar">
             <ul class="menu">
                 <il class="menu-items">
@@ -55,7 +60,7 @@
             </ul>
         </section>
     </div>
-    <!--About-->
+<!--About-->
     <div class="about" id="about-page">
         <h2>About</h2>
         <div class="about-img-left">
@@ -89,10 +94,21 @@
     <div id="map"></div>
 </div>
 
-
-
 <!--Resorts-->
-
+<div class="resorts" id="resorts-page">
+    <h2>Resorts</h2>
+</div>
+<div class="card-wrapper">
+    <div class="card">
+        <div class="card-img">
+            <img src="media/pic/sunnybeachresort.jpg" alt="Sunny Beach Resort">
+        </div>
+        <div class="card-info">
+            <h3>Sunny Beach Resort</h3>
+            <p></p>
+        </div>
+    </div>
+</div>
 
 
 
@@ -107,19 +123,11 @@
 
 </footer>
 
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUEY6aGpBAtBGIT5eMGSwcmoEfaf2DULg&callback=initMap&libraries=&v=weekly"
-    defer></script>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUEY6aGpBAtBGIT5eMGSwcmoEfaf2DULg&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
-
-
-    <script src="script.js"></script>
+<script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUEY6aGpBAtBGIT5eMGSwcmoEfaf2DULg&callback=initMap&libraries=&v=weekly" defer></script>
+<script src="script.js"></script>
 </body>
 
 </html>
