@@ -248,3 +248,18 @@ body {
     margin: 0;
     padding: 0;  
 }
+
+/* Map */
+.map h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#map {
+    left: 10%;
+    width: 80%;
+    height: 60vh;
+}
