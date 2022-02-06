@@ -87,34 +87,25 @@ h2 {
 /* Welcome Text & Button*/
 .banner {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 5%;
+    left: 5%;
 }
 
-.banner h1 {
-    font-family: 'Homemade Apple', cursive;
-    font-size: 60px;
-    line-height: 60px;
-    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    animation: moveBanner 1s 0.4s forwards;
-}
-
-.banner h5 {
+.img-logo img{
     width: 90%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 50px;
-    opacity: 0;
-    animation: moveBanner 1s 0.8s forwards;
+    height: 70%;
+    overflow: hidden;
+    float: center;
+    shape-outside: circle();
+    opacity: 0.8;
+    margin: 3%;
 }
 
 .banner button {
-    width: 150px;
-    height: 40px;
-    background: linear-gradient(to right, #FD746C, #2C3E50);
+    width: 10%;
+    height: 30px;
+    margin-left: 45%;
+    background-color: #FD746C;
     border: none;
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
@@ -133,8 +124,8 @@ h2 {
 
 /* Music Button */
 .music-btn {
-    float: left;
-    margin-top: 40px;
+    float: center;
+    margin-bottom: 1%;
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
     text-transform: uppercase;
@@ -145,12 +136,9 @@ h2 {
     align-items: center;
     animation: moveBanner 1s 1.6s forwards;
 }
-.music-btn p {
-    margin-left: 10px;
-}
 
 #icon {
-    width: 40px;
+    width: 30px;
     cursor: pointer;
 }
 
