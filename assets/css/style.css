@@ -11,15 +11,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
-
 /* Header */
 .header {
     width: 100%;
@@ -146,11 +137,49 @@ button a {
     max-width: 100%;
     height: auto;
   }      
-
 /*RSVP*/
 .rsvp-container img {
     max-width: 100%;
     height: auto;
+    margin-top: 5%;
+  }      
+
+  .yes-container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 10%;
+    cursor: pointer;
+  }   
+  
+  .no-container img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    cursor: pointer;
+  }
+  
+  /*Back*/
+.back-container img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }      
+
+
+/*RSVP YES*/
+.rsvpyes-container img {
+    max-width: 100%;
+    height: auto;
+  }      
+
+  /*RSVP NO*/
+.rsvpno-container img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 10%;
   }      
 .rsvp {
     display: flex;
