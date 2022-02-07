@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>FREDERIKSEN 2022 - RSVP</title>
+</head>
+
+<body>
+    <div class="rsvp" id="rsvp-page">
+        <div class="rsvp-container">
+            <img src="assets/media/pic/RSVPyes.png" alt="RSVPyes">
+        </div>
+    </div>
+    <div>
+        <form action=""mailto:emi.berndt@gmail.com" method="post" enctype="text/plain">
+            <p>RSVP</p>
+            <div class="item">
+                <label for="name">Name<span>*</span></label>
+                <input id="name" type="text" name="name" required />
+            </div>
+            <div class="item">
+                <label for="email">Email Address<span>*</span></label>
+                <input id="email" type="email" name="email" required />
+            </div>
+            <div class="item">
+                <p>How many will attend</p>
+                <select>
+                    <option selected value="" disabled selected></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="allergies">Allergies or other preferences</label>
+                <input id="allergies" type="text" name="allergies">
+            </div>
+            <div class="item">
+                <label for="song">Song wishes for the DJ</label>
+                <input id="song" type="text" name="song">
+            </div>
+            <div class="item">
+                <label for="other">Something else we should know about</label>
+                <input id="other" type="text" name="other">
+            </div>
+            <div class="btn-block">
+                <button type="submit" href="/">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

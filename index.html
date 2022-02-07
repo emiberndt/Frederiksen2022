@@ -12,275 +12,84 @@
 </head>
 
 <body>
-    <!--Navigation Menu-->
-    <div class="container">
-        <div class="burger-menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
+    <!--Background Video-->
+    <header class="header">
+        <div class="video-wrapper">
+            <video src="assets/media/movie/copenhagen.mp4" autoplay muted loop>This browser does not support
+                video</video>
         </div>
-        <!--Background Video-->
-        <header class="header">
-            <div class="video-wrapper">
-                <video src="assets/media/movie/copenhagen.mp4" autoplay muted loop>This browser does not support
-                    video</video>
-            </div>
 
-            <!--Welcome Text-->
-            <div class="banner">
-                 <!--Background Music-->
-                 <div class="music-btn">
-                    <img src="assets/media/music/play.png" alt="play-button" id="icon">
-                    <audio id="bgMusic">
-                        <source src="assets/media/music/bgmusic.mp3" type="audio/mp3">
-                    </audio>
-                </div>
-                <div class="img-logo">
-                    <img src="assets/media/pic/logo.png" alt="FREDERIKSEN 2022">
-                </div>
-                <button><a href="#enquiry-page">RSVP</a></button>
-                <br>
+        <!--Welcome Text-->
+        <div class="banner">
+            <!--Background Music-->
+            <div class="music-btn">
+                <img src="assets/media/music/play.png" alt="play-button" id="icon">
+                <audio id="bgMusic">
+                    <source src="assets/media/music/bgmusic.mp3" type="audio/mp3">
+                </audio>
             </div>
-
-        </header>
-        <!--Navigation Menu-->
-        <section class="sidebar">
-            <ul class="menu">
-                <il class="menu-items">
-                    <a href="#" class="menu-links" data-content="Home">Home</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#about-page" class="menu-links" data-content="Info">Info</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#map-page" class="menu-links" data-content="Location">Location</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#resorts-page" class="menu-links" data-content="Dresscode">Dresscode</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#enquiry-page" class="menu-links" data-content="Hotel">Hotel</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#enquiry-page" class="menu-links" data-content="Speech">Speech</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#enquiry-page" class="menu-links" data-content="Gifts">Gifts</a>
-                </il>
-                <il class="menu-items">
-                    <a href="#enquiry-page" class="menu-links" data-content="RSVP">RSVP</a>
-                </il>
-            </ul>
-        </section>
-    </div>
-    <!--About-->
-    <div class="about" id="about-page">
-        <h2>About</h2>
-        <div class="about-img-left">
-            <img src="assets/media/pic/beach1.jpg" alt="Palmtrees at the Beach">
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget ultrices
-            lorem.
-            Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum eu nunc
-            velit. Sed
-            aliquam est risus, sit amet ultrices est consequat at. Suspendisse iaculis, libero ut condimentum dignissim,
-            augue
-            purus lobortis lacus, nec aliquet dolor orci et tortor. Fusce non lacus maximus, lacinia neque ac, sagittis
-            lorem.</p>
-        <div class="about-img-right">
-            <img src="assets/media/pic/lagoon.jpg" alt="Island Lagoon">
-        </div>
-        <p>Cras ultrices ante vitae risus efficitur imperdiet quis quis nisl. Duis in tortor id sapien ullamcorper
-            aliquet ut
-            sed risus. Duis fermentum tincidunt elit, eu dictum ligula semper sed. Mauris vitae libero interdum,
-            hendrerit
-            turpis eget, ultricies mi. Mauris pellentesque urna ac cursus maximus. Nulla vestibulum porta mattis.
-            Cras ultrices ante vitae risus efficitur imperdiet quis quis nisl. Duis in tortor id sapien ullamcorper
-            aliquet ut
-            sed risus. Duis fermentum tincidunt elit, eu dictum ligula semper sed. Mauris vitae libero interdum,
-            hendrerit
-            turpis eget, ultricies mi. Mauris pellentesque urna ac cursus maximus.</p>
-    </div>
-    <!--Map-->
-    <div class="map" id="map-page">
-        <h2>Map</h2>
-        <div id="map"></div>
-    </div>
-
-    <!--Resorts-->
-    <section class="resorts">
-        <div id="resorts-page">
-            <h2>Resorts</h2>
-        </div>
-        <div class="card-wrapper">
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/sunnybeachresort.jpg" alt="Sunny Beach Resort">
-                </div>
-                <div class="card-info">
-                    <h3>Sunny Beach Resort</h3>
-                    <h5>Bora-Bora</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
+            <div class="img-logo">
+                <img src="assets/media/pic/logo.png" alt="FREDERIKSEN 2022">
             </div>
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/bungalowbayresort.jpg" alt="Bungalow Bay Resort">
-                </div>
-                <div class="card-info">
-                    <h3>Bungalow Bay Resort</h3>
-                    <h5>Bora-Bora</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
-            </div>
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/thepalmresort.jpg" alt="The Palm Resort">
-                </div>
-                <div class="card-info">
-                    <h3>The Palm Resort</h3>
-                    <h5>Bora-Bora</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
-            </div>
-        </div>
-        <div class="card-wrapper">
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/coralreefresort.jpg" alt="Coral Reef Resort">
-                </div>
-                <div class="card-info">
-                    <h3>Coral Reef Resort</h3>
-                    <h5>Maldives</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
-            </div>
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/coconutbeachresort.jpg" alt="Coconut Beach Resort">
-                </div>
-                <div class="card-info">
-                    <h3>Coconut Beach Resort</h3>
-                    <h5>Maldives</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
-            </div>
-            <div class="card" data-tilt>
-                <div class="card-img">
-                    <img src="assets/media/pic/oceanspaandresort.jpg" alt="Ocean Spa & Resort">
-                </div>
-                <div class="card-info">
-                    <h3>Ocean Spa & Resort</h3>
-                    <h5>Maldives</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta accumsan diam. Quisque eget
-                        ultrices
-                        lorem.
-                        Aliquam ultricies varius lacus, quis pulvinar felis tincidunt id. Ut eu nunc lorem. Vestibulum
-                        eu
-                        nunc
-                        velit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Enquiry-->
-    <section class="enquiry">
-        <div id="enquiry-page">
-            <h2>Enquiry</h2>
-            <p>Feel free to send us an enquiry, and we will do our best to accomodate your vacation stay with us.</p>
-        </div>
-        <form>
-            <div class="input-group">
-                <input type="text" class="field">
-                <label class="input-label">Name</label>
-            </div>
-            <div class="input-group">
-                <input type="email" class="field">
-                <label class="input-label">Email</label>
-            </div>
-            <div class="input-group">
-                <input type="phone" class="field">
-                <label class="input-label">Phone</label>
-            </div>
-            <div class="input-group">
-                <label for="resorts">Resort</label>
-                <select id="resorts-option">
-                    <option label="Sunny Beach Resort">Sunny Beach Resort</option>
-                    <option label="Bungalow Bay Resort">Bungalow Bay Resort</option>
-                    <option label="The Palm Resort">The Palm Resort</option>
-                    <option label="Coral Reef Resort">Coral Reef Resort</option>
-                    <option label="Coconut Beach Resort">Coconut Beach Resort</option>
-                    <option label="Ocean Spa & Resort">Ocean Spa & Resort</option>
-                </select>
-            </div>
-            <label for="guests">Guests</label>
-            <select id="guests-option">
-                <option label="1">1</option>
-                <option label="2" selected>2</option>
-                <option label="3">3</option>
-                <option label="4">4</option>
-            </select>
-            <div class="input-group">
-                <input type="date" class="field">
-                <label class="input-label">Check-in</label>
-            </div>
-            <div class="input-group">
-                <input type="date" class="field">
-                <label class="input-label">Check-out</label>
-            </div>
-            <textarea rows="10" cols="100" name="comment" form="usrform">Other comments:</textarea>
+            <button><a href="RSVPyes.html">RSVP</a></button>
             <br>
-            <button>Send</button>
-        </form>
-    </section>
+        </div>
 
-
-
-    <!--Footer-->
-    <footer>
-
-    </footer>
-
-
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUEY6aGpBAtBGIT5eMGSwcmoEfaf2DULg&callback=initMap&libraries=&v=weekly"
-        defer></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="assets/js/tilt.js"></script>
+    </header>
+    </div>
+    <!--Info-->
+    <div class="info" id="info-page">
+        <div class="info-container">
+            <img src="assets/media/pic/info.png" alt="Info">
+        </div>
+    </div>
+    </div>
+    <!--Location-->
+    <div class="location" id="location-page">
+        <div class="location-container">
+            <img src="assets/media/pic/location.png" alt="Location">
+        </div>
+    </div>
+    <br>
+    <button><a href="https://maps.apple.com/?daddr=(55.667505,%2012.559723)&dirflg=d">Directions</a></button>
+    <br>
+    </div>
+    <!--Dresscode-->
+    <div class="dresscode" id="dresscode-page">
+        <div class="dresscode-container">
+            <img src="assets/media/pic/dresscode.png" alt="Dresscode">
+        </div>
+    </div>
+    <!--Hotel-->
+    <div class="hotel" id="hotel-page">
+        <div class="hotel-container">
+            <img src="assets/media/pic/hotel.png" alt="Hotel">
+        </div>
+    </div>
+    <br>
+    <button><a
+            href="https://bookings.travelclick.com/99988?_ga=2.258278927.424204522.1644187553-171453354.1644187466&languageid=1#/guestsandrooms"
+            target="_blank">Book</a></button>
+    <br>
+    <!--Speech-->
+    <div class="speech" id="speech-page">
+        <div class="speech-container">
+            <img src="assets/media/pic/speech.png" alt="Speech">
+        </div>
+    </div>
+    <br>
+    <button><a href="mailto:jaegers_alexandra@hotmail.com" target="_blank">Contact</a></button>
+    <br>
+    <!--Gifts-->
+    <div class="gifts" id="gifts-page">
+        <div class="gifts-container">
+            <img src="assets/media/pic/gifts.png" alt="Gifts">
+        </div>
+    </div>
+    <button><a href="https://www.ticket.se/presentkort" target="_blank">Buy Gift</a></button>
+    <br>
+    <!--RSVP-->
+    
 </body>
 
 </html>

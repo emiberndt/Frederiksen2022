@@ -20,50 +20,6 @@ h2 {
     margin-bottom: 5%;
 }
 
-/* Navigation "Hamburger" */
-.burger-menu {
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    top: 30px;
-    right: 20px;
-    z-index: 500;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    cursor: pointer;
-    transition: right 0.4s;
-}
-
-.change .burger-menu {
-    right: 10rem;
-}
-
-.line {
-    width: 100%;
-    height: 2px;
-    background-color: #050505;
-    z-index: 200;
-}
-
-.change .line {
-    background-color: #050505;
-    z-index: 3;
-}
-
-.change .line-1 {
-    transform: rotate(45deg) translate(5px, 7px);
-}
-
-.change .line-2 {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.change .line-3 {
-    transform: rotate(-45deg) translate(5px, -7px);
-}
-
 /* Header */
 .header {
     width: 100%;
@@ -75,12 +31,12 @@ h2 {
 /* Background Video */
 .video-wrapper {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .video-wrapper video {
     width: 100%;
-    height: 100%;
+    height: auto;
     opacity: .8;
 }
 
@@ -93,7 +49,7 @@ h2 {
 
 .img-logo img{
     width: 90%;
-    height: 70%;
+    height: auto;
     overflow: hidden;
     float: center;
     shape-outside: circle();
@@ -101,14 +57,14 @@ h2 {
     margin: 3%;
 }
 
-.banner button {
-    width: 10%;
-    height: 30px;
-    margin-left: 45%;
+button {
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
     background-color: #FD746C;
     border: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
@@ -118,7 +74,7 @@ h2 {
     animation: moveBanner 1s 1.2s forwards;
 }
 
-.banner button a {
+button a {
     color: black;
 }
 
@@ -153,169 +109,152 @@ h2 {
     }
 }
 
-/* Navigation Bar */
-.sidebar {
-    width: 15rem;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: -15rem;
-    background: #fff;
-    transition: right 0.4s;
-    z-index: 2;
-}
 
-.change .sidebar {
-    right: 0;
-} 
+/* Info */
+.info-container img {
+    max-width: 100%;
+    height: auto;
+  }
 
-/* Navigation Links */
-.menu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/*Location*/
+.location-container img {
+    max-width: 100%;
+    height: auto;
+  }
 
-.menu-links {
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #050505;
-    letter-spacing: 5px;
-    line-height: 80px;
+/*Dresscode*/
+.dresscode-container img {
+    max-width: 100%;
+    height: auto;
+  }  
+
+/*Hotel*/
+.hotel-container img {
+    max-width: 100%;
+    height: auto;
+  }    
+
+/*Speech*/
+.speech-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }    
+
+/*Gifts*/
+.gifts-container img {
+    max-width: 100%;
+    height: auto;
+  }      
+
+/*RSVP*/
+.rsvp-container img {
+    max-width: 100%;
+    height: auto;
+  }      
+.rsvp {
     display: flex;
-    position: relative;
-}
-
-.menu-links::before {
-  content: attr(data-content);
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #FD746C;
-  width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  transition: width 0.4s ease-in-out;
-}
-
-.menu-links:hover::before {
-  width: 100%;
-}
-
-/* About */
-.about {
-    width: 90%;
-    margin: 5%;
-}
-
-.about-img-left img{
-    width: 30%;
-    height: 30%;
-    border-radius: 50%; 
-    overflow: hidden;
-    float: left;
-    shape-outside: circle();
-    opacity: 0.8;
-    margin: 3%;
-}
-
-.about-img-right img{
-    width: 40%;
-    height: 40%;
-    border-radius: 50%;
-    overflow: hidden;
-    float: right;
-    shape-outside: circle();
-    opacity: 0.8;
-    margin: 3%;
-}
-
-.about p {
-    font-size: 20px;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 0;  
-}
-
-/* Map */
-#map {
-    left: 5%;
-    bottom: 45%;
-    width: 90%;
-    height: 80vh;
-}
-
-/* Resorts */
-.resorts {
-    width: 90%;
-    margin: 5%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;    
-}
-
-.card-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
+    align-items: center;
+    height: auto;
     width: 100%;
-}
-
-.card {
+    }
+    form {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 6px;
+    background: #fff;
+    }
+    input, select, textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    }
+    input[type="date"] {
+    padding: 4px 5px;
+    }
+    textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+    .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
+    color: #FD746C;
+    }
+    .item input:hover, .item select:hover, .item textarea:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0 #FD746C;
+    color: #FD746C;
+    }
+    .item {
     position: relative;
-    width: 30%;
-    height: 40vh;
-    border-radius: 10px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) ;
-}
-
-.card-img {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    transition: opacity 0.3s;
-}
-
-.card:hover .card-img {
-    opacity: 0.5;
-}
-
-.card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    border-radius: 10px;
-}
-
-.card-info {
+    margin: 10px 0;
+    }
+    .item span {
+    color: red;
+    }
+    input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    }
+    .item i, input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
-    bottom: 0;
-    padding: 20px;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s;
-}
-
-.card:hover .card-info {
-    bottom: 5px;
-    opacity: 1;
-    visibility: visible;
-}
-
-.card-info h3 {
     font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 5px;    
-}
-
-.card-info p {
-    font-size: 14px;
-    letter-spacing: 2px;
-}
+    color: #FD746C;
+    }
+    .item i {
+    right: 1%;
+    top: 30px;
+    z-index: 1;
+    }
+    [type="date"]::-webkit-calendar-picker-indicator {
+    right: 1%;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    }
+    input[type=radio], input[type=checkbox]  {
+    display: none;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+    }
+    .question span {
+    margin-left: 30px;
+    }
+    .question-answer label {
+    display: block;
+    }
+    label.radio:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    }
+    input[type=radio]:checked + label:before, label.radio:hover:before {
+    border: 2px solid #FD746C;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid #FD746C;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+    input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
