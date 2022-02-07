@@ -157,7 +157,6 @@ button a {
     height: auto;
     margin-left: 25%;
     margin-top: 10%;
-    margin-bottom: 20%;
     cursor: pointer;
   }
   
@@ -166,6 +165,7 @@ button a {
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    margin-top: 10%;
   }      
 
 
