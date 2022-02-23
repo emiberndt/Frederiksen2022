@@ -50,12 +50,12 @@ body {
 
 button {
     width: 30%;
-    height: 50px;
+    height: 40px;
     margin-left: 35%;
     background-color: #FD746C;
     border: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.2) ;
