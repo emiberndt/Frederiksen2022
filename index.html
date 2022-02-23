@@ -2,116 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@300&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>FREDERIKSEN 2022</title>
+    <h1>Enter password</h1>
+    <script src="assets/js/index.js"></script>
 </head>
 
 <body>
-    <!--Background Video-->
-    <header class="header">
-        <div class="video-wrapper">
-            <video src="assets/media/movie/copenhagen.mp4" autoplay muted loop>This browser does not support
-                video</video>
-        </div>
-
-        <!--Welcome Text-->
-        <div class="banner">
-            <!--Background Music-->
-            <div class="music-btn">
-                <img src="assets/media/music/play.png" alt="play-button" id="icon">
-                <audio id="bgMusic">
-                    <source src="assets/media/music/bgmusic.mp3" type="audio/mp3">
-                </audio>
-            </div>
-            <div class="img-logo">
-                <img src="assets/media/pic/logo.png" alt="FREDERIKSEN 2022">
-            </div>
-            <button><a href="#rsvp-page">RSVP</a></button>
-            <br>
-        </div>
-
-    </header>
-    </div>
-    <!--Info-->
-    <div class="info" id="info-page">
-        <div class="info-container">
-            <img src="assets/media/pic/info.png" alt="Info">
-        </div>
-    </div>
-    </div>
-    <!--Location-->
-    <div class="location" id="location-page">
-        <div class="location-container">
-            <img src="assets/media/pic/location.png" alt="Location">
-        </div>
-    </div>
-    <br>
-    <button><a href="https://maps.apple.com/?daddr=(55.667505,%2012.559723)&dirflg=d">Directions</a></button>
-    <br>
-    </div>
-    <!--Dresscode-->
-    <div class="dresscode" id="dresscode-page">
-        <div class="dresscode-container">
-            <img src="assets/media/pic/dresscode.png" alt="Dresscode">
-        </div>
-    </div>
-    <!--Hotel-->
-    <div class="hotel" id="hotel-page">
-        <div class="hotel-container">
-            <img src="assets/media/pic/hotel.png" alt="Hotel">
-        </div>
-    </div>
-    <br>
-    <button><a
-            href="https://bookings.travelclick.com/99988?_ga=2.258278927.424204522.1644187553-171453354.1644187466&languageid=1#/guestsandrooms"
-            target="_blank">Book</a></button>
-    <br>
-    <!--Speech-->
-    <div class="speech" id="speech-page">
-        <div class="speech-container">
-            <img src="assets/media/pic/speech.png" alt="Speech">
-        </div>
-    </div>
-    <br>
-    <button><a href="mailto:jaegers_alexandra@hotmail.com" target="_blank">Contact</a></button>
-    <br>
-    <!--Gifts-->
-    <div class="gifts" id="gifts-page">
-        <div class="gifts-container">
-            <img src="assets/media/pic/gifts.png" alt="Gifts">
-        </div>
-    </div>
-    <br>
-    <button><a href="https://www.ticket.se/presentkort" target="_blank">Buy Gift</a></button>
-    <br>
-    <!--RSVP-->
-    <div class="rsvp" id="rsvp-page">
-        <div class="rsvp-container">
-            <img src="assets/media/pic/rsvp.png" alt="RSVP">
-        </div>
-    </div>
-    <div class="yes" id="yes-page">
-        <div class="yes-container">
-            <a href="RSVPyes.html"><img src="assets/media/pic/yes.png" alt="yes"></a>
-        </div>
-    </div>
-    <div class="no" id="no-page">
-        <div class="no-container">
-            <a href="RSVPno.html"><img src="assets/media/pic/no.png" alt="no"></a>
-        </div>
-    </div>
-    <div class="back" id="back-page">
-        <div class="back-container">
-            <a href="index.html"><img src="assets/media/pic/back.png" alt="go back"></a>
-        </div>
-    </div>
-    
-    <script src="assets/js/script.js"></script>
+    <form class="passform" action="webpage.html" onsubmit="return passcheck()">
+        <input type="password" required id="whoopwhoop">
+        <input type="submit">
+    </form>
 </body>
 
 </html>
